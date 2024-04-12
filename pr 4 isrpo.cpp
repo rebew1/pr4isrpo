@@ -9,5 +9,7 @@ int main()
     z = 10;
     s = 4;
     o = z / s;
-    cout << o;
+    cout << o << endl;
+    v = z * s;
+    cout << v << endl;
 }

@@ -6,10 +6,10 @@ int main()
 {
     setlocale(LC_ALL, "rus");
     double o, v, z, s, n, m;
-    z = 10;
-    s = 4;
-    o = z / s;
+    s = 10;
+    v = 4;
+    o = s / v;
     cout << o << endl;
-    v = z * s;
-    cout << v << endl;
+    z = s * v;
+    cout << z << endl;
 }
